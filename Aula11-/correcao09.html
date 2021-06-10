@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let altura = +prompt("Digite sua altura"),
+        sexo = prompt("Digite seu sexo (F - Feminino | M - Masculino)").toUpperCase()
+
+    switch (sexo) {
+    case "F":
+        pesoIdeal = (62.1 * altura) - 44.7
+        console.log(pesoIdeal.toFixed(2))
+        break
+    case "M":
+        pesoIdeal = (72.7 * altura) - 58
+        console.log(pesoIdeal.toFixed(2))
+        break
+    default:
+        console.log("Você digitou um sexo inválido")
+} 
+
+    </script>
+    
+</body>
+</html>

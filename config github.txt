@@ -1,0 +1,40 @@
+configurar git no comptador: git config --global user.name "nome"
+
+configurar email: git config --global user.email "email"
+
+comando ver se esta salvo: git config --global --list
+
+git clone <url>
+
+git add .
+git commit -m "Adiciona o arquivo index.html"
+
+
+git commit -a -m "Acrescentando a estrutura HTML"
+
+ver quantos comits: git log
+
+
+git status
+
+comando mandar para github:git push origin ''bug/142''
+
+criar nova branch: git branch ''bug/142''
+
+entrar na nova branch git chechkout ""Nome branch""
+
+deletar uma branch:git branch -D <branch>
+
+criar nova branch e ja entrar nela : git checkout -b features/233
+
+git checkout -b features/233
+
+git commit -a -m "Implementando nova funcionalidade [features/233]"
+
+git push origin features/233
+
+
+
+
+
+
