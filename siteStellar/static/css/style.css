@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(45deg, red 15%, white 85%);
+    background-image: linear-gradient(45deg, red  15%, white 85%);
     font-family: 'Source Sans Pro', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, p, a {
 
 #header h1 {
     font-size: 52px;
-    color: white;
+    color: black;
 }
 
 #main {
@@ -59,38 +59,16 @@ nav ul a {
     padding: 90px 60px;
 }
 
-.button{
-    padding: 10px 28px;
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-}
-
 #wrapper{
     margin: auto;
     width: 90%;
 }
-
-.image{
-    display: inline-block;
-    width: min-content;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-
-.image img {
-    display:  block;
-    border-radius: 50%;
-}
-
 .content p {
     font-size: 16px;
 }
 
  h2{
-    text-align: center;
+    text-align: start;
     background-color: 636363;
 }
 
@@ -109,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
  }
  
  p{
-     text-align: center;
+     text-align: start;
      
  }
 
@@ -125,26 +103,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
 }
  
-iframe {
-    width: 50%;
-    height: 600px;                  
-}
 
-a {                        
-    width: fit-content;
-    margin: 10px auto;
-    display: block;
-    padding: 20px;
-    background-color: rgb(230, 104, 104);
-    color:black;            
-    text-decoration:red;
-    text-transform: arial;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
-}
 
-a:hover {
-    color: black;
-    background-color:rgb(229, 155, 155);            
+.container img {
+ max-width: 300px; 
+ display: center;
+ border-radius: 40%;
+ padding: 10px;
 }
- 
