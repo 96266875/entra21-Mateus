@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(45deg, red  15%, white 85%);
+    background-image: url(../img/fundo.jpg);
     font-family: 'Source Sans Pro', sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 h1, h2, h3, h4, h5, p, a {
@@ -21,7 +22,10 @@ h1, h2, h3, h4, h5, p, a {
 }
 
 #main {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.63);
 }
     
 #main input[type="submit"], #main input[type="reset"], #main input[type="button"], #main button, #main .button {
@@ -36,7 +40,7 @@ h1, h2, h3, h4, h5, p, a {
 }
 
 nav {
-    background-color:rgb(216, 90, 90);                                    
+    background-color:Gray;                                    
 }
 
 nav ul {
@@ -87,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
  }
  
  p{
+     background-color: #747474;
      text-align: start;
      
  }
@@ -103,11 +108,52 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
 }
  
-
-
 .container img {
  max-width: 300px; 
  display: center;
- border-radius: 40%;
+ border-radius: 20px;
  padding: 10px;
 }
+
+.home_images {
+    width: 250px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.home_images:hover {
+    position: relative;
+    
+}
+
+.image_container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+.image_link span {
+    position: absolute;
+    background-color: black;
+    bottom: 25px;
+    left: 20px;
+    font-size: 30px;
+    font-family: Arial;
+    color: aliceblue;
+    max-width: 0;
+    -webkit-transition: max-width 1s;
+    transition: max-width 0.5s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .image_link:hover span {
+    max-width: 15rem;
+  }
+
+
+  
