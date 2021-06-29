@@ -155,5 +155,11 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 15rem;
   }
 
-
+.image_viagem{
+    position: relative;
+    text-align: start;
+    color: white;
+    letter-spacing: 5px;
+    border-radius: px;
   
+}
